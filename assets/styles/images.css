@@ -1,0 +1,78 @@
+div {
+    height: 500px; ;
+    margin:25px auto;
+    border:2px dotted brown ;
+    background-color: burlywood;
+}
+
+.bg-repeat-no-repeat {
+    background-repeat: no-repeat;
+    background-image: url(../images/dot\ \(1\).jpg);
+}
+
+.bg-repeat-repeat-y {
+    background-repeat: repeat-y;
+    background-image: url(../images/dot\ \(1\).jpg);
+}
+
+.bg-repeat-repeat-x{
+    background-repeat: repeat-x;
+    background-image: url(../images/dot\ \(1\).jpg);
+}
+
+.bg-repeat-repeat{
+    background-repeat: repeat;
+    background-image: url(../images/dot\ \(1\).jpg);
+}
+
+.bg-size-cover-img-sm{
+    background-image: url(../images/dot\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-size-cover-img-lg{
+    background-image: url(../images/pexels-photo-1624487.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-size-contain{
+    background-image: url(../images/pexels-photo-1624487.jpeg);
+    background-repeat: repeat;
+    background-size: contain;
+
+}
+
+.bg-size-specific{
+    background-image: url(../images/pexels-photo-1624487.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: right bottom;
+
+}
+
+.bg-size-position{
+    background-image: url(../images/pexels-photo-1624487.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: 200px 150px;
+}
+
+.bg-size-attachment {
+    background-image: url(../images/pexels-photo-1624487.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg-shorthand {
+    background: aqua url(../images/pexels-photo-1624487.jpeg) no-repeat right top fixed;
+    background-size: cover;
+    /* background: aqua; */
+    /* background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+    background-attachment: fixed; */
+}

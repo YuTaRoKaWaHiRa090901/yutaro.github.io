@@ -1,0 +1,113 @@
+p{
+    border: 1px dashed darkslateblue;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+
+
+
+
+
+.clear-none{
+    clear: none;
+}
+
+.clear-left{
+    clear: left;
+
+}
+
+.clear-right{
+    clear: right;
+}
+
+.clear-both{
+    clear: both;
+}
+
+
+
+
+div{
+
+    height: 300px;
+    background-color: pink;
+    border: 2px dashed palevioletred;
+    margin: 25px auto;
+}
+
+.position-static {
+    position: static; /*default position*/
+    top: 500px;
+    left: 30%;
+}
+
+.position-relative{
+    position: relative;
+    left: -100px;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 0;
+    right: 50%;
+}
+
+.position-fixed {
+    position: fixed;
+    bottom: 0%;
+    left: 25%;
+
+}
+
+
+
+.display-block{
+    display: block;
+    border: 2px solid darkorchid;
+    height: 100px;
+    width: 450px;
+    margin-top: 100px;
+
+}
+
+
+.display-inline{
+    display: inline;
+    padding: 5px;
+
+}
+
+.display-inline-block{
+    border: 1px solid darkred;
+    display: inline-block;
+    margin-top: 150px;
+
+
+}
+
+.display-none{
+    display: none;
+}
+
+
+
+
+.pos-relative{
+    position: relative;
+    z-index: 0;
+}
+
+.pos-absolute{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+}

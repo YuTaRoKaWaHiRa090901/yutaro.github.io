@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(149, 32, 216);
+    overflow: scroll;
+}
+
+
+
+.div-example-1 {
+    background-color: rgb(235, 10, 10);
+    height: 50px;
+    width: 500px;
+    margin: 20px 25px 30px 10px;
+
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 75px;
+    border: 10px outset rgb(142, 55, 61);
+    border-radius: 50px;
+}
+
+
+.btn {
+    background-color: rgba(237, 156, 33, 0.925);
+    color: blueviolet;
+    height: 100px;
+    width: 250px;
+    font-size: 25px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 25px;
+}
